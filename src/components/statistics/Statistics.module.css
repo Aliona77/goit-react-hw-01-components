@@ -1,7 +1,7 @@
 .statistics {
   text-align: center;
   max-width: 300px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 15px auto;
   border-radius: 5px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -14,7 +14,7 @@
   height: 70px;
   margin: 0;
   font-size: 16px;
-  color: grey;
+  color: #84909d;
   text-transform: uppercase;
 }
 
@@ -44,10 +44,10 @@
 }
 
 .label {
-  font-size: 10px;
-  color: #ffffff;
+  font-size: 15px;
+  color: #fff;
 }
 
 .percentage {
-  color: #ffffff;
+  color: #fff;
 }
