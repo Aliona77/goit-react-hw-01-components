@@ -6,7 +6,7 @@ export default function Profile({ name, tag, location, avatar, stats }) {
   return (
     <div className={css.profile}>
       <div className={css.description}>
-        <img src={avatar} alt="Аватар пользователя" className={css.avatar} />
+        <img className={css.avatar} src={avatar} alt="Аватар пользователя" />
         <p className={css.name}>{name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
@@ -22,8 +22,8 @@ export default function Profile({ name, tag, location, avatar, stats }) {
           <span className={css.quantity}>{css.views}</span>
         </li>
         <li>
-          <span class={css.label}>Likes</span>
-          <span class={css.quantity}>{css.likes}</span>
+          <span className={css.label}>Likes</span>
+          <span className={css.quantity}>{css.likes}</span>
         </li>
       </ul>
     </div>
@@ -38,5 +38,6 @@ Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  avatar: PropTypes.object.isRequired,
+  stats: PropTypes.object.isRequired,
+  avatar: PropTypes.string,
 };

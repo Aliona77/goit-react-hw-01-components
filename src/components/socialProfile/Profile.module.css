@@ -2,7 +2,7 @@
   text-align: center;
   background-color: #ffffff;
   border-radius: 5px;
-  max-width: 300px;
+  width: 300px;
   margin: 15px auto;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -18,23 +18,24 @@
 }
 
 .name {
-  font-size: 16px;
-  color: black;
+  font-size: 18px;
+  color: #152335;
   font-weight: bold;
 }
 
 .tag,
-.location {
+.location,
+.label {
+  font-weight: normal;
   font-size: 14px;
-  color: grey;
-  line-height: 0.8;
+  color: #84909d;
 }
 
 .stats {
   display: flex;
   border-top: 1px solid #d9e0ea;
   list-style: none;
-  background-color: #fff;
+  background-color: #f3f6f9;
   margin: 0;
   padding: 0;
   border-radius: 0 0 5px 5px;
@@ -53,12 +54,7 @@
   border-right: 1px solid #d9e0ea;
 }
 
-.label {
-  font-size: 12px;
-  color: grey;
-}
-
 .quantity {
   font-weight: bold;
-  color: black;
+  color: #152335;
 }

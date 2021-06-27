@@ -1,4 +1,4 @@
-//import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 export default function Statistics({ title, stats }) {
@@ -17,3 +17,13 @@ export default function Statistics({ title, stats }) {
     </section>
   );
 }
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    }),
+  ).isRequired,
+};
