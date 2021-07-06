@@ -1,15 +1,15 @@
 //======COMPONENTS=======
 
-import Profile from './components/socialProfile/Profile';
-import Statistics from './components/statistics/Statistics';
-import FriendList from './components/friendList/FriendList';
-import TransactionHistory from './components/transactionHistory/TransactionHistory';
+import Profile from './components/SocialProfile/Profile';
+import Statistics from './components/Statistics/Statistics';
+import FriendList from './components/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 //==========JSON==============
-import user from './components/socialProfile/user.json';
-import statisticalData from './components/statistics/statistical-data.json';
-import friends from './components/friendList/friends.json';
-import transactions from './components/transactionHistory/transactions.json';
+import user from './components/Data/user.json';
+import statisticalData from './components/Data/statistical-data.json';
+import friends from './components/Data/friends.json';
+import transactions from './components/Data/transactions.json';
 
 export default function App() {
   return (
